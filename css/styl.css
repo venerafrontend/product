@@ -227,6 +227,46 @@ body {
     border-radius: 19px;
     background: #ef3e3d;
 }
+.management-text h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343d;
+    width: 189px;
+}
+.management-text h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343d;
+    width: 224px;
+
+}
+.management-text p {
+    padding: 12px 0 22px 0;
+    width: 486px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+
+}
+.management-text h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+    width: 151px;
+
+}
+.management {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#management{
+    padding: 150px 0;
+}
 
 
 
