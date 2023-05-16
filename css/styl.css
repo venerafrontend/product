@@ -18,6 +18,10 @@ body {
     font-family: "Poppins" ,sans-serif;
 }
 #header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
     padding: 25px 0;
     -webkit-box-shadow: 0 3px 34px 0  rgba(103, 150, 187, 0.33);
     -moz-box-shadow: 0 3px 34px 0  rgba(103, 150, 187, 0.33);
@@ -267,6 +271,242 @@ body {
 #management{
     padding: 150px 0;
 }
+#customer{
+    padding: 60px 0;
+}
+.customer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer-text h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    width: 215px;
+}
+.customer-text h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    width: 350px;
+
+}
+.customer-text p {
+    padding: 23px 0 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+    width: 486px;
+
+}
+.customer-block-one {
+    background: #ff9900;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer-text-block ion-icon{
+    color: white;
+    font-size: 25px;
+}
+.customer-block-two {
+    background: #f03e3d;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer-block-three {
+    background: #4d8dff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer-text-block {
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#collaborative {
+    padding: 150px 0;
+}
+.collaborative-text h4 {
+
+    width: 151px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+}
+.collaborative-text h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+.collaborative-text p {
+    padding: 23px 0 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+    width: 486px;
+}
+.collaborative {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#quick {
+    height: 60vh;
+    background: url("../img/q-sh.png") no-repeat top/cover;
+    padding: 50px 0;
+}
+.quick h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343d;
+}
+.quick p {
+    width: 542px;
+    margin: 0 auto;
+    padding: 16px 0 32px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #22343d;
+}
+.quick-block {
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+}
+.quick-block-text {
+    width: 274px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2f281e;
+    height: 53px;
+    border-radius: 26px;
+    background: white;
+    box-shadow: 0 2px 15px rgba(23, 58, 86, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 16px;
+}
+.quick-general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+.quick button {
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background: #02897a;
+    border-radius: 5px;
+    margin-top: 48px;
+
+}
+#slide {
+    padding: 70px 0;
+}
+.slide h1 {
+    width: 349px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+
+}
+.slide p {
+    padding: 8px 0 32px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+    width: 693px;
+}
+
+
+.slide-bloc h3 {
+    padding: 24px 0 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #223443;
+
+}
+.slide-bloc h2 {
+    width: 294px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343d ;
+    padding-left: 24px;
+}
+.slide-bloc {
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transition: .4s;
+}
+.slide-bloc:hover > .slide-bloc-text {
+    color:  #02897a;
+}
+
+
+
+
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+
+
+
 
 
 
