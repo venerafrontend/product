@@ -1,0 +1,306 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+
+}
+@media (max-width:1200px){
+    #quick {
+        height: 100%;
+    }
+
+
+}
+@media (max-width: 1024px) {
+    .header-nav a {
+        display: none;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-btn{
+        padding-bottom: 40px;
+
+    }
+
+
+    #product{
+        height: 155vh;
+    }
+    .product-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+
+    }
+    .product-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+
+    .management{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .management-text {
+        text-align: center;
+    }
+
+    .customer {
+        flex-direction: column-reverse;
+
+
+}
+    .collaborative {
+        flex-direction: column;
+        text-align: center;
+    }
+    .collaborative-text {
+        padding-bottom: 20px;
+    }
+    .price-table {
+        flex-wrap: wrap;
+
+    }
+    .price-bloc {
+        margin: 10px;
+    }
+    .what-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .what-bloc {
+        margin: 10px;
+    }
+    .join-bloc {
+        width: 95%;
+        flex-wrap: wrap;
+        height: 90%;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .burger-menu {
+        display: block;
+    }
+    .header-nav button {
+        display: none;
+    }
+    .quick-general {
+        flex-wrap: wrap;
+    }
+
+    
+    
+}
+@media (max-width: 768px) {
+    .quick-block-two {
+        flex-direction: row-reverse;
+
+    }
+    #product{
+        height: 100vh;
+    }
+    #management {
+        height: 100vh;
+    }
+    .management-text h3 {
+        text-align: center;
+    }
+    .management-text h5 {
+        text-align: center;
+    }
+    #quick {
+        height: 100%;
+    }
+    #slide {
+        height: 100%;
+    }
+    .footer-general {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .footer-input {
+        padding-top: 20px;
+        align-items: center;
+    }
+    .slide p {
+        width: 90%;
+        text-align: center;
+    }
+    .slide h1 {
+        width: 90%;
+    }
+    .join-bloc-text h1 {
+        text-align: center;
+        width: 90%;
+    }
+
+    
+}
+@media (max-width: 576px) {
+    .hero-img {
+        width: 90%;
+    }
+    .product h1,
+    .quick p,
+    .what p {
+        width: 90%;
+    }
+    #product {
+        height: 100%;
+    }
+    .customer {
+        height: 100%;
+    }
+    .customer-text h1 ,h4 {
+        text-align: center;
+    }
+
+    
+}
+@media (max-width: 450px) {
+
+    .hero-text h1,
+    .hero-text p {
+        width: 90%;
+    }
+    #product {
+        height: 230vh;
+    }
+    #management {
+        height: 100%;
+    }
+    .management-text p {
+        width: 90%;
+    }
+    .customer img {
+        width: 90%;
+    }
+    .customer-text-block {
+        flex-direction: column;
+    }
+    .customer-text p,
+    .collaborative-text p {
+        width: 90%;
+    }
+    .collaborative img {
+        width: 90%;
+    }
+    .join img {
+        width: 90%;
+    }
+    .footer-general div {
+        margin: 20px;
+    }
+    
+}
+@media (max-width: 425px) {
+    .hero-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-btn button {
+        margin: 15px;
+    }
+    .hero-text h1 {
+        width: 90%;
+        text-align: center;
+    }
+    .hero-text p {
+        width: 90%;
+    }
+    .hero-btn {
+        flex-wrap: wrap;
+    }
+    .customer-text h4,
+    .customer-text h1,
+    .customer-text p
+    {
+        width: 90%;
+    }
+    .customer-text {
+        width: 90%;
+    }
+    .customer-text-block {
+        width: 90%;
+    }
+    .quick-block {
+        width: 90%;
+    }
+    .quick-block-text {
+        padding: 15px;
+
+    }
+
+    
+}
+@media (max-width: 420px) {
+    .join-bloc {
+        width: 70vh;
+        text-align: center;
+    }
+    .what h1 {
+        width: 90%;
+    }
+
+    
+    
+}
+@media (max-width: 400px) {
+    
+}
+@media (max-width: 375px) {
+    
+}
+@media (max-width: 320px) {
+    #product {
+        height: 100vh;
+    }
+    #management {
+        height: 100vh;
+    }
+    .join-bloc {
+        width: 90%;
+        margin: 0;
+
+    }
+    .join-bloc-text h1 {
+        text-align: center;
+        font-size: 28px;
+        width: 90%;
+
+    }
+    .join-img {
+        margin-top: 20px;
+    }
+    .footer-input h1 {
+        width: 90%;
+    }
+    .footer-input input {
+        margin-top: 20px;
+        width: 90%;
+    }
+     .w-i-text h1,
+     h2{
+         margin-right: 50px;
+
+    }
+
+    
+}
+@media (max-width: 300px) {
+
+    
+}
